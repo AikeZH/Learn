@@ -2,7 +2,7 @@ package chapter7.section2;
 
 /**
  * reusing.Detergent.java
- *
+ * Inheritance syntax & properties
  * @author ZhangHua
  * @date 2020/8/11
  */

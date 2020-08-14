@@ -1,6 +1,8 @@
 package chapter7.section2;
 
 /**
+ * reusing.Cartoon.java
+ * Constructor calls during inheritance
  * @author zhanghua
  * @date 2020/8/13
  */

@@ -1,6 +1,8 @@
 package chapter7.section2;
 
 /**
+ * reusing.Chess.java
+ * Inheritance, constructors and arguments
  * @author zhanghua
  * @date 2020/8/13
  */

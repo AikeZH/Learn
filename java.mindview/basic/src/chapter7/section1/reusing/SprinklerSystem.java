@@ -2,7 +2,7 @@ package chapter7.section1.reusing;
 
 /**
  * reusing.SprinklerSystem
- *
+ * Composition for code reuse.
  * @author zhanghua
  * @date 2020/8/3
  */
