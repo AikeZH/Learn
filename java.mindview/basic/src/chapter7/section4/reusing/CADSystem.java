@@ -26,7 +26,7 @@ public class CADSystem extends Shape {
         // The order of cleanup is the reverse of the order of initialization
         triangle.dispose();
         circle.dispose();
-        for (int i = 0; i < lines.length; i++) {
+        for (int i = lines.length-1; i > -1; i--) {
             lines[i].dispose();
         }
         super.dispose();
@@ -58,11 +58,11 @@ public class CADSystem extends Shape {
     Shape dispose
     Erasing Circle
     Shape dispose
-    Erasing Line: 0, 0
+    Erasing Line: 2, 4
     Shape dispose
     Erasing Line: 1, 1
     Shape dispose
-    Erasing Line: 2, 4
+    Erasing Line: 0, 0
     Shape dispose
     Shape dispose
      */
