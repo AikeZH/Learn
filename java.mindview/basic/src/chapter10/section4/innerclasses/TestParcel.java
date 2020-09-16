@@ -1,7 +1,5 @@
 package chapter10.section4.innerclasses;
 
-import chapter10.section3.innerclasses.Parcel3;
-
 /**
  * @author zhanghua
  * @date 2020/9/15
@@ -12,7 +10,7 @@ public class TestParcel {
         Contents c = p.contents();
         Destination d = p.destination("Tasmania");
         // Illegal -- can't access private class
-        //! Parcel4.PContents pd = p.new PContents("");
+        //! Parcel4.PContents pc = p.new PContents("");
     }
 }
 
