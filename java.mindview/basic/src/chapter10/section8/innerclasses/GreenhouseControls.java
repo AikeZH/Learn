@@ -86,7 +86,7 @@ public class GreenhouseControls extends Controller {
         }
     }
 
-    public class ThermostatNight extends Event{
+    public class ThermostatNight extends Event {
 
         public ThermostatNight(long delayTime) {
             super(delayTime);
@@ -94,7 +94,7 @@ public class GreenhouseControls extends Controller {
 
         @Override
         public void action() {
-        // Put hardware control code here
+            // Put hardware control code here
             thermostat = "Night";
         }
 
@@ -104,7 +104,7 @@ public class GreenhouseControls extends Controller {
         }
     }
 
-    public class ThermostatDay extends Event{
+    public class ThermostatDay extends Event {
 
         public ThermostatDay(long delayTime) {
             super(delayTime);
@@ -112,7 +112,7 @@ public class GreenhouseControls extends Controller {
 
         @Override
         public void action() {
-        // Put hardware control code here
+            // Put hardware control code here
             thermostat = "Day";
         }
 
@@ -123,7 +123,7 @@ public class GreenhouseControls extends Controller {
     }
 
     // An example of an action() that inserts a new one of itself into the event list
-    public class Bell extends Event{
+    public class Bell extends Event {
 
         public Bell(long delayTime) {
             super(delayTime);
@@ -136,11 +136,11 @@ public class GreenhouseControls extends Controller {
 
         @Override
         public String toString() {
-            return "Bing";
+            return "Bing!";
         }
     }
 
-    public class Restart extends Event{
+    public class Restart extends Event {
         private Event[] eventList;
 
         public Restart(long delayTime, Event[] eventList) {
@@ -164,6 +164,23 @@ public class GreenhouseControls extends Controller {
         @Override
         public String toString() {
             return "Restarting system";
+        }
+    }
+
+    public static class Terminate extends Event {
+
+        public Terminate(long delayTime) {
+            super(delayTime);
+        }
+
+        @Override
+        public void action() {
+            System.exit(0);
+        }
+
+        @Override
+        public String toString() {
+            return "Terminating";
         }
     }
 }
