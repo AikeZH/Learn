@@ -26,6 +26,6 @@ public class ListFeatures {
         System.out.println("copy after:"+copy);
         sub.set(1, "");
         LinkedList<Object> objects = new LinkedList<>();
-
+        objects.iterator();
     }
 }
