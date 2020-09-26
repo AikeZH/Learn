@@ -1,4 +1,6 @@
-package chapter11.section10.holding;
+package chapter11.section11.holding;
+
+import chapter11.section10.holding.QueueDemo;
 
 import java.util.*;
 

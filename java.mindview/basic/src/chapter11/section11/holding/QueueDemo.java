@@ -1,4 +1,4 @@
-package chapter11.section10.holding;
+package chapter11.section11.holding;
 
 import java.util.LinkedList;
 import java.util.Queue;
