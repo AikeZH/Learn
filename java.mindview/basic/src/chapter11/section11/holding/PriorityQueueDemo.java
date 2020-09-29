@@ -1,7 +1,5 @@
 package chapter11.section11.holding;
 
-import chapter11.section10.holding.QueueDemo;
-
 import java.util.*;
 
 /**
@@ -28,7 +26,7 @@ public class PriorityQueueDemo {
         List<String> strings = Arrays.asList(fact.split(""));
         PriorityQueue<String> stringPQ = new PriorityQueue<>(strings);
         QueueDemo.printQ(stringPQ);
-        stringPQ = new PriorityQueue<>(strings.size(),Collections.reverseOrder());
+        stringPQ = new PriorityQueue<>(strings.size(), Collections.reverseOrder());
         stringPQ.addAll(strings);
         QueueDemo.printQ(stringPQ);
 
