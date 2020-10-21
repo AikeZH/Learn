@@ -19,7 +19,10 @@ public class Test {
 //            System.out.println("split is not empty");
 //        }
 //        System.out.println(split);
-        testBigDecimal();
+//        testBigDecimal();
+        String s = "_";
+        System.out.println(s.matches("\\W"));
+
     }
 
     public static void testBigDecimal() {

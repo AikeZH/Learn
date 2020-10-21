@@ -8,7 +8,7 @@ package chapter12.section10.exceptions;
 public class Cleanup {
     public static void main(String[] args) {
         try {
-            chapter12.section10.exceptions.InputFile in = new chapter12.section10.exceptions.InputFile("D:/Learn/java.mindview/basic/src/chapter12/section10/exceptions/Cleanup.java");
+            InputFile in = new InputFile("D:/Learn/java.mindview/basic/src/chapter12/section10/exceptions/Cleanup.java");
             try {
                 String s;
                 int i = 1;
