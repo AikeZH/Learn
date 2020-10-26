@@ -6,6 +6,7 @@ package chapter14.section3.typeinfo.pets;
  */
 public class Hamster extends Rodent {
     public Hamster() {
+        super();
     }
 
     public Hamster(String name) {

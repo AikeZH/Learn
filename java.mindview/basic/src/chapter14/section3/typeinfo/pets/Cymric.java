@@ -6,6 +6,7 @@ package chapter14.section3.typeinfo.pets;
  */
 public class Cymric extends Manx {
     public Cymric() {
+        super();
     }
 
     public Cymric(String name) {

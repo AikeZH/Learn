@@ -6,6 +6,7 @@ package chapter14.section3.typeinfo.pets;
  */
 public class Pug extends Dog {
     public Pug() {
+        super();
     }
 
     public Pug(String name) {

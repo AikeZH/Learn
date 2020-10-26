@@ -6,6 +6,7 @@ package chapter14.section3.typeinfo.pets;
  */
 public class Dog extends Pet {
     public Dog() {
+        super();
     }
 
     public Dog(String name) {

@@ -6,6 +6,7 @@ package chapter14.section3.typeinfo.pets;
  */
 public class Mutt extends Dog {
     public Mutt() {
+        super();
     }
 
     public Mutt(String name) {
