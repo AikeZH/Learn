@@ -1,5 +1,7 @@
 package chapter15.section4.generics;
 
+import chapter15.Amphibian;
+import chapter15.Vehicle;
 import util.*;
 
 /**
@@ -42,10 +44,4 @@ public class TupleTest2 {
     (chapter15.section4.generics.Vehicle@2db0f6b2, chapter15.section4.generics.Amphibian@3cd1f1c8, hi, 47)
     (chapter15.section4.generics.Vehicle@1996cd68, chapter15.section4.generics.Amphibian@3339ad8e, hi, 47, 11.1)
      */
-}
-
-class Amphibian {
-}
-
-class Vehicle {
 }
